@@ -1,237 +1,48 @@
-[
-  {
-    "word": "bone",
-    "pol": "kość",
-    "try": 1
-  },
-  {
-    "word": "mouth, lips",
-    "pol": "usta",
-    "try": 1
-  },
-  {
-    "word": "hand",
-    "pol": "ręka",
-    "try": 1
-  },
-  {
-    "word": "nose",
-    "pol": "nos",
-    "try": 1
-  },
-  {
-    "word": "thumb",
-    "pol": "kciuk",
-    "try": 1
-  },
-  {
-    "word": "finger",
-    "pol": "palec",
-    "try": 1
-  },
-  {
-    "word": "index finger",
-    "pol": "palec wskazujący",
-    "try": 1
-  },
-  {
-    "word": "middle finger",
-    "pol": "środkowy palec",
-    "try": 1
-  },
-  {
-    "word": "ring finger",
-    "pol": "palec serdeczny",
-    "try": 1
-  },
-  {
-    "word": "little (pinky) finger",
-    "pol": "mały palec",
-    "try": 1
-  },
-  {
-    "word": "nail",
-    "pol": "paznokieć",
-    "try": 1
-  },
-  {
-    "word": "knuckle",
-    "pol": "kostka",
-    "try": 1
-  },
-  {
-    "word": "wrist",
-    "pol": "nadgarstek",
-    "try": 1
-  },
-  {
-    "word": "heart",
-    "pol": "serce",
-    "try": 1
-  },
-  {
-    "word": "lungs",
-    "pol": "płuca",
-    "try": 1
-  },
-  {
-    "word": "veins",
-    "pol": "żyły",
-    "try": 1
-  },
-  {
-    "word": "brain",
-    "pol": "mózg",
-    "try": 1
-  },
-  {
-    "word": "throat",
-    "pol": "gardło",
-    "try": 1
-  },
-  {
-    "word": "liver",
-    "pol": "wątroba",
-    "try": 1
-  },
-  {
-    "word": "stomach",
-    "pol": "żołądek",
-    "try": 1
-  },
-  {
-    "word": "kidneys",
-    "pol": "nerki",
-    "try": 1
-  },
-  {
-    "word": "skeleton",
-    "pol": "szkielet",
-    "try": 1
-  },
-  {
-    "word": "ribs",
-    "pol": "żebra",
-    "try": 1
-  },
-  {
-    "word": "bones",
-    "pol": "kości",
-    "try": 1
-  },
-  {
-    "word": "skin",
-    "pol": "skóra",
-    "try": 1
-  },
-  {
-    "word": "neck",
-    "pol": "szyja",
-    "try": 1
-  },
-  {
-    "word": "tongue",
-    "pol": "język",
-    "try": 1
-  },
-  {
-    "word": "wrinkles",
-    "pol": "zmarszczki",
-    "try": 1
-  },
-  {
-    "word": "shoulder",
-    "pol": "ramię",
-    "try": 1
-  },
-  {
-    "word": "elbow",
-    "pol": "łokieć",
-    "try": 1
-  },
-  {
-    "word": "forearm",
-    "pol": "przedramię",
-    "try": 1
-  },
-  {
-    "word": "calf",
-    "pol": "łydka",
-    "try": 1
-  },
-  {
-    "word": "ankle",
-    "pol": "kostka",
-    "try": 1
-  },
-  {
-    "word": "heel",
-    "pol": "pięta",
-    "try": 1
-  },
-  {
-    "word": "talus",
-    "pol": "napiętek",
-    "try": 1
-  },
-  {
-    "word": "toe",
-    "pol": "palec u nogi",
-    "try": 1
-  },
-  {
-    "word": "leg",
-    "pol": "noga",
-    "try": 1
-  },
-  {
-    "word": "foot",
-    "pol": "stopa",
-    "try": 1
-  },
-  {
-    "word": "palm",
-    "pol": "dłoń",
-    "try": 1
-  },
-  {
-    "word": "chin, bib, feeder",
-    "pol": "broda, podbródek",
-    "try": 1
-  },
-  {
-    "word": "jowl, mandible",
-    "pol": "żuchwa",
-    "try": 1
-  },
-  {
-    "word": "jawbone",
-    "pol": "szczęka, kość szczękowa",
-    "try": 1
-  },
-  {
-    "word": "jaw",
-    "pol": "szczęka",
-    "try": 1
-  },
-  {
-    "word": "dewlap, jowl, chap, chop",
-    "pol": "podgardle",
-    "try": 1
-  },
-  {
-    "word": "cheek",
-    "pol": "policzek",
-    "try": 1
-  },
-  {
-    "word": "forehead",
-    "pol": "czoło",
-    "try": 1
-  },
-  {
-    "word": "head",
-    "pol": "głowa",
-    "try": 1
-  }
-]
+[{"en": "ankle", "pl": "kostka"},
+ {"en": "ass", "pl": "ty\u0142ek"},
+ {"en": "bone", "pl": "ko\u015b\u0107"},
+ {"en": "bones", "pl": "ko\u015bci"},
+ {"en": "brain", "pl": "m\u00f3zg"},
+ {"en": "calf", "pl": "\u0142ydka"},
+ {"en": "cheek", "pl": "policzek"},
+ {"en": "chin, bib, feeder", "pl": "broda, podbr\u00f3dek"},
+ {"en": "dewlap, jowl, chap, chop", "pl": "podgardle"},
+ {"en": "elbow", "pl": "\u0142okie\u0107"},
+ {"en": "finger", "pl": "palec"},
+ {"en": "foot", "pl": "stopa"},
+ {"en": "forearm", "pl": "przedrami\u0119"},
+ {"en": "forehead", "pl": "czo\u0142o"},
+ {"en": "hand", "pl": "r\u0119ka"},
+ {"en": "head", "pl": "g\u0142owa"},
+ {"en": "heart", "pl": "serce"},
+ {"en": "heel", "pl": "pi\u0119ta"},
+ {"en": "index finger", "pl": "palec wskazuj\u0105cy"},
+ {"en": "jaw", "pl": "szcz\u0119ka"},
+ {"en": "jawbone", "pl": "szcz\u0119ka, ko\u015b\u0107 szcz\u0119kowa"},
+ {"en": "jowl, mandible", "pl": "\u017cuchwa"},
+ {"en": "kidneys", "pl": "nerki"},
+ {"en": "knuckle", "pl": "kostka"},
+ {"en": "leg", "pl": "noga"},
+ {"en": "little (pinky) finger", "pl": "ma\u0142y palec"},
+ {"en": "liver", "pl": "w\u0105troba"},
+ {"en": "lungs", "pl": "p\u0142uca"},
+ {"en": "middle finger", "pl": "\u015brodkowy palec"},
+ {"en": "mouth, lips", "pl": "usta"},
+ {"en": "nail", "pl": "paznokie\u0107"},
+ {"en": "neck", "pl": "szyja"},
+ {"en": "nose", "pl": "nos"},
+ {"en": "palm", "pl": "d\u0142o\u0144"},
+ {"en": "ribs", "pl": "\u017cebra"},
+ {"en": "ring finger", "pl": "palec serdeczny"},
+ {"en": "shoulder", "pl": "rami\u0119"},
+ {"en": "skeleton", "pl": "szkielet"},
+ {"en": "skin", "pl": "sk\u00f3ra"},
+ {"en": "stomach", "pl": "\u017co\u0142\u0105dek"},
+ {"en": "talus", "pl": "napi\u0119tek"},
+ {"en": "throat", "pl": "gard\u0142o"},
+ {"en": "thumb", "pl": "kciuk"},
+ {"en": "toe", "pl": "palec u nogi"},
+ {"en": "tongue", "pl": "j\u0119zyk"},
+ {"en": "veins", "pl": "\u017cy\u0142y"},
+ {"en": "wrinkles", "pl": "zmarszczki"},
+ {"en": "wrist", "pl": "nadgarstek"}]

@@ -1,4 +1,5 @@
 ankle - kostka
+ass - tyłek
 bone - kość
 bones - kości
 brain - mózg
