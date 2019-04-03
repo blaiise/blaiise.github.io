@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-    <title>My Website</title>
+    <title>English Words</title>
     <meta name="generator" content="Jekyll v3.7.4">
     <meta property="og:title" content="blaiise.github.io">
     <meta property="og:locale" content="en_US">
@@ -32,13 +32,22 @@
 <body>
 <div class="container-lg px-3 my-5 markdown-body">
 
-    <h1>blaiise.github.io</h1>
-    <p>I am Blaise. I have had brilliant breakfast today. Hope you have had good one too. My Website</p>
+    <h1>Words Translation</h1>
+    <div class="word_box">
+        <p class="word_row">Word: <span id="english_word"></span></p>
+        <p class="word_row">Answer: <span id="polish_answer" class="hidden"></span></p>
+        <a id="reveal_polish" class="btn text-right" href="#">Reveal</a>
+    </div>
+
+    <br>
+
+    <div class="word_box">
+        <p class="word_row">Answer: <span id="polish_word"></span></p>
+        <p class="word_row">Word: <span id="english_answer" class="hidden"></span></p>
+        <a id="reveal_english" class="btn text-right" href="#">Reveal</a>
+    </div>
 
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-<script>anchors.add();</script>
-
+<script type="application/javascript" src="assets/js/scripts.js"></script>
 </body>
 </html>
