@@ -6,7 +6,7 @@ words_list = []
 with open('lista.txt', 'r') as in_file:
     for cnt, line in enumerate(in_file):
         data = {}
-        en, pl = line.split('-')
+        en, pl = line.replace("–", "-").split("-")
         data['en'] = str(en).strip()
         data['pl'] = str(pl).strip()
         words_list += [data]
