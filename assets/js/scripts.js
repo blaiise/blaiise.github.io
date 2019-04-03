@@ -14,14 +14,27 @@ function loadJSON(callback) {
     xobj.send(null);
 }
 
+function readTextFile(callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "data/lista.txt", false);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                callback(rawFile.responseText);
+            }
+        }
+    };
+    rawFile.send(null);
+}
+
 var number_en = Math.floor(Math.random() * words_en.length);
 
 function fetch_english() {
     if (words_en) {
         if (words_en.length > 0) {
             number_en = Math.floor(Math.random() * words_en.length);
-            document.getElementById("english_word").innerHTML = words_en[number_en]['word'];
-            document.getElementById("polish_answer").innerHTML = words_en[number_en]['pol'];
+            document.getElementById("english_word").innerHTML = words_en[number_en]['en'];
+            document.getElementById("polish_answer").innerHTML = words_en[number_en]['pl'];
         } else {
             alert("Run out of Words, well done!");
         }
@@ -36,8 +49,8 @@ function fetch_polish() {
     if (words_pl) {
         if (words_pl.length > 0) {
             number_pl = Math.floor(Math.random() * words_pl.length);
-            document.getElementById("polish_word").innerHTML = words_pl[number_pl]['pol'];
-            document.getElementById("english_answer").innerHTML = words_pl[number_pl]['word'];
+            document.getElementById("polish_word").innerHTML = words_pl[number_pl]['pl'];
+            document.getElementById("english_answer").innerHTML = words_pl[number_pl]['en'];
         } else {
             alert("Run out of Words, well done!");
         }
@@ -53,6 +66,9 @@ function init() {
         fetch_english();
         words_pl = JSON.parse(response);
         fetch_polish();
+    });
+    readTextFile(function(response){
+        document.getElementById("list_of_words").innerHTML = response.replace(/\n/g,"<br />");
     });
 }
 
@@ -90,5 +106,10 @@ document.getElementById("yes_pl").addEventListener("click", function () {
     words_pl.splice(number_pl, 1);
     next_polish();
 });
+
+function show_list() {
+    document.getElementById("list_of_words").classList.remove("hidden");
+}
+document.getElementById("show_list").addEventListener("click", show_list);
 
 init();
