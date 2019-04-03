@@ -1,48 +1,98 @@
-ankle - kostka
-ass - tyłek
-bone - kość
-bones - kości
-brain - mózg
-calf - łydka
-cheek - policzek
-chin, bib, feeder - broda, podbródek
-dewlap, jowl, chap, chop - podgardle
-elbow - łokieć
-finger - palec
-foot - stopa
-forearm - przedramię
-forehead - czoło
-hand - ręka
-head - głowa
-heart - serce
-heel - pięta
-index finger - palec wskazujący
-jaw - szczęka
-jawbone - szczęka, kość szczękowa
-jowl, mandible - żuchwa
-kidneys - nerki
-knuckle - kostka
-leg - noga
-little (pinky) finger - mały palec
-liver - wątroba
-lungs - płuca
-middle finger - środkowy palec
-mouth, lips - usta
-nail - paznokieć
-neck - szyja
-nose - nos
-palm - dłoń
-ribs - żebra
-ring finger - palec serdeczny
-shoulder - ramię
-skeleton - szkielet
-skin - skóra
-stomach - żołądek
-talus - napiętek
-throat - gardło
-thumb - kciuk
-toe - palec u nogi
-tongue - język
-veins - żyły
-wrinkles - zmarszczki
-wrist - nadgarstek
+Anesthesiologist - anestezjolog
+Ankle - kostka
+Ass - tyłek
+Benign - łagodny, niezłośliwy (guz)
+Blood sample - próbka krwi
+Bone - kość
+Bones - kości
+Brain - mózg
+Break / bone fracture - złamanie
+Bug, virus - wirus
+Burn - oparzenie
+Calf - łydka
+Cardiologist - kardiolog
+Cast - gips
+Cheek - policzek
+Chin, bib, feeder - broda, podbródek
+Chronic - przewlekły
+Cold- przeziębienie, ból gardła i katar
+Cure - leczenie, lekarstwo, wyleczenie, leczyć
+Dermatologist - dermatolog
+Dewlap, jowl, chap, chop - podgardle
+Diagnosis - diagnoza
+Disease - poważne schorzenie
+Doctor, MD - doktor, lekarz
+Dosage - dawkowanie, dawka
+Elbow - łokieć
+Emergency Room (ER) - ostry dyżur
+Exam - badanie
+Family doctor - lekarz rodzinny
+Finger - palec
+Flu- grypa
+Foot - stopa
+Forearm - przedramię
+Forehead - czoło
+Gastroenterologist - gastrolog
+Gynecologist - ginekolog
+Hand - ręka
+Head - głowa
+Heal - goić się, zdrowieć
+Heart - serce
+Heel - pięta
+Hospital - szpital
+Hypertension - nadciśnienie tętnicze, wysokie ciśnienie krwi
+Illness - tymczasowa choroba
+Index finger - palec wskazujący
+Injury - uraz, uszkodzenie zewnętrznych powierzchni ciała
+Intensive Care Unit (ICU) - oddział intensywnej terapii
+Jaw - szczęka
+Jawbone - szczęka, kość szczękowa
+Jowl, mandible - żuchwa
+Kidneys - nerki
+Knuckle - kostka
+Leg - noga
+Little (pinky) finger - mały palec
+Liver - wątroba
+Lungs - płuca
+Middle finger - środkowy palec
+Mouth, lips - usta
+Nail - paznokieć
+Neck - szyja
+Nose - nos
+Numb - odrętwiały
+Nurse - pielęgniarka
+Operating Room (OR) - sala operacyjna
+Ophthalmologist - okulista
+Orthopedist - ortopeda
+Pain killer / pain reliever - lek przeciwbólowy
+Palm - dłoń
+Pediatrician - pediatra
+Physician - internista, medyk, lekarz
+Prescription - recepta (na lekarstwo)
+Remedy - lekarstwo, leczyć
+Ribs - żebra
+Ring finger - palec serdeczny
+Seizure - atak padaczki
+Shoulder - ramię
+Sickness - nudności
+Skeleton - szkielet
+Skin - skóra
+Stomach - żołądek
+Surgeon - chirurg
+Syringe - strzykawka
+Talus - napiętek
+Terminal - nieuleczalny
+Therapist - fizjoterapeuta
+Throat - gardło
+Thumb - kciuk
+Toe - palec u nogi
+Tongue - język
+Traumatologist - traumatolog
+Treat - leczyć
+Urine sample - próbka moczu
+Urologist - urolog
+Veins - żyły
+Ward - oddział
+Wound - rana
+Wrinkles - zmarszczki
+Wrist - nadgarstek
