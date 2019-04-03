@@ -6337,12 +6337,12 @@ pre {
     line-height: 50px;
 }
 
-#english_word {
+#english_word, #polish_word {
     font-weight: bold;
     font-size: 20px;
 }
 
-#polish_answer {
+#polish_answer, #english_answer {
     font-style: italic;
     font-size: 20px;
 }
