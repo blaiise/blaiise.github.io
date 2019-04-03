@@ -1,4 +1,5 @@
-var words = [];
+var words_en = [],
+    words_pl = [];
 
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
@@ -13,21 +14,33 @@ function loadJSON(callback) {
     xobj.send(null);
 }
 
+var number_en = Math.floor(Math.random() * words_en.length);
+
 function fetch_english() {
-    if (words) {
-        let number_en = Math.floor(Math.random() * words.length);
-        document.getElementById("english_word").innerHTML = words[number_en]['word'];
-        document.getElementById("polish_answer").innerHTML = words[number_en]['pol'];
+    if (words_en) {
+        if (words_en.length > 0) {
+            number_en = Math.floor(Math.random() * words_en.length);
+            document.getElementById("english_word").innerHTML = words_en[number_en]['word'];
+            document.getElementById("polish_answer").innerHTML = words_en[number_en]['pol'];
+        } else {
+            alert("Run out of Words, well done!");
+        }
     } else {
         alert("Error: Words not loaded!");
     }
 }
 
+var number_pl = Math.floor(Math.random() * words_pl.length);
+
 function fetch_polish() {
-    if (words) {
-        let number_pl = Math.floor(Math.random() * words.length);
-        document.getElementById("polish_word").innerHTML = words[number_pl]['pol'];
-        document.getElementById("english_answer").innerHTML = words[number_pl]['word'];
+    if (words_pl) {
+        if (words_pl.length > 0) {
+            number_pl = Math.floor(Math.random() * words_pl.length);
+            document.getElementById("polish_word").innerHTML = words_pl[number_pl]['pol'];
+            document.getElementById("english_answer").innerHTML = words_pl[number_pl]['word'];
+        } else {
+            alert("Run out of Words, well done!");
+        }
     } else {
         alert("Error: Words not loaded!");
     }
@@ -36,8 +49,9 @@ function fetch_polish() {
 function init() {
     loadJSON(function (response) {
         // Parse JSON string into object
-        words = JSON.parse(response);
+        words_en = JSON.parse(response);
         fetch_english();
+        words_pl = JSON.parse(response);
         fetch_polish();
     });
 }
@@ -48,17 +62,33 @@ var polish_answer = document.getElementById("polish_answer"),
 document.getElementById("reveal_polish").addEventListener("click", function () {
     polish_answer.classList.remove("hidden");
 });
-document.getElementById("next_english").addEventListener("click", function () {
+
+function next_english() {
     polish_answer.classList.add("hidden");
     fetch_english();
+    console.log(number_en);
+}
+
+document.getElementById("next_english").addEventListener("click", next_english);
+document.getElementById("yes_en").addEventListener("click", function () {
+    words_en.splice(number_en, 1);
+    next_english();
 });
 
 document.getElementById("reveal_english").addEventListener("click", function () {
     english_answer.classList.remove("hidden");
 });
-document.getElementById("next_polish").addEventListener("click", function () {
+
+function next_polish() {
     english_answer.classList.add("hidden");
     fetch_polish();
+    console.log(number_pl);
+}
+
+document.getElementById("next_polish").addEventListener("click", next_polish);
+document.getElementById("yes_pl").addEventListener("click", function () {
+    words_pl.splice(number_pl, 1);
+    next_polish();
 });
 
 init();
