@@ -1,0 +1,47 @@
+ankle - kostka
+bone - kość
+bones - kości
+brain - mózg
+calf - łydka
+cheek - policzek
+chin, bib, feeder - broda, podbródek
+dewlap, jowl, chap, chop - podgardle
+elbow - łokieć
+finger - palec
+foot - stopa
+forearm - przedramię
+forehead - czoło
+hand - ręka
+head - głowa
+heart - serce
+heel - pięta
+index finger - palec wskazujący
+jaw - szczęka
+jawbone - szczęka, kość szczękowa
+jowl, mandible - żuchwa
+kidneys - nerki
+knuckle - kostka
+leg - noga
+little (pinky) finger - mały palec
+liver - wątroba
+lungs - płuca
+middle finger - środkowy palec
+mouth, lips - usta
+nail - paznokieć
+neck - szyja
+nose - nos
+palm - dłoń
+ribs - żebra
+ring finger - palec serdeczny
+shoulder - ramię
+skeleton - szkielet
+skin - skóra
+stomach - żołądek
+talus - napiętek
+throat - gardło
+thumb - kciuk
+toe - palec u nogi
+tongue - język
+veins - żyły
+wrinkles - zmarszczki
+wrist - nadgarstek
