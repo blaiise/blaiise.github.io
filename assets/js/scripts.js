@@ -26,8 +26,8 @@ function fetch_english() {
 function fetch_polish() {
     if (words) {
         let number_en = Math.floor(Math.random() * words.length);
-        document.getElementById("polish_word").innerHTML = words[number_en]['word'];
-        document.getElementById("english_answer").innerHTML = words[number_en]['pol'];
+        document.getElementById("polish_word").innerHTML = words[number_en]['pol'];
+        document.getElementById("english_answer").innerHTML = words[number_en]['word'];
     } else {
         alert("Error: Words not loaded!");
     }
